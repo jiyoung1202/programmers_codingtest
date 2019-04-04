@@ -12,7 +12,7 @@ public class solution1 {
             int temp[] = new int[second - first +1]; //잘라서 저장할 temp 만듬
 
             int l = 0;
-            for(int j = first -1; j < second; j++){ // 잘라서 temp에저장..
+            for(int j = first -1; j < second; j++){ // 잘라서temp에 저장..
                 System.out.println(array[j]);
                 temp[l] = array[j]; //temp저장....
                 l++;
