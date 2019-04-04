@@ -1,6 +1,5 @@
 package BruteForceSearch_level1;
 import java.util.ArrayList;
-import java.util.Arrays;
 //ArrayList 공부해야할 듯...!!
 
 public class solution1 {
@@ -28,7 +27,7 @@ public class solution1 {
         int max = correct[0];//첫번째 학생의 점수를 최댓값이라고 일단 초기화
         for(int j=0; j<correct.length; j++){ //최대 점수 맞추기
             if (max < correct[j]){ //최댓값이 새로운 학생의 점수보다 작으면
-                correct[j] = max; //새로운 학생의 점수를 최댓값으로 갱신한다.
+                max = correct[j]; //새로운 학생의 점수를 최댓값으로 갱신한다.
             }
             System.out.println(max);
         }
